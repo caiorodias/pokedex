@@ -1,0 +1,29 @@
+
+Requisição HTTP
+
+URL: https://pokeapi.co/api/v2/pokemon?type=grass&name=1
+  ${Endereço}/${path = caminho de identificação do recurso}
+
+  Request Method: GET ; POST ; PUT ; DELETE
+
+
+  Type = grass
+  name = 1
+
+  Request Headers
+                    Configuração das API's
+  Response Headers
+
+  request Body
+  {
+    "name": "Teste"
+  }
+
+  Status code: 200 ok (cada familia 300, 400, 500 tem seu significado)
+
+  response headers: como a resposta está configurada
+
+  response body: a resposta em si
+
+
+
