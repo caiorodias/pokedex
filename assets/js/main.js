@@ -16,7 +16,7 @@ function loadPokemonItens(offset, limit) {
         
                 <div class="detail">
                     <ol class="types">
-                        ${pokemon.types.map((type) => `<li class="type ${pokemon.type}">${type}</li>`).join('')}
+                        ${pokemon.types.map((type) => `<li class="type ${type}">${type}</li>`).join('')}
                     </ol>
         
                     <img src="${pokemon.photo}" 
@@ -32,7 +32,6 @@ loadPokemonItens(offset, limit)
 
 loadMoreButton.addEventListener('click', () => {
     offset += limit
-
     const qtdRecordNetPage = offset + limit
 
     if (qtdRecordNetPage >= maxRecords) {
