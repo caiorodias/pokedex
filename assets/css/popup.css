@@ -1,0 +1,37 @@
+section#area {
+    background: blue;
+    padding: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    width: 93.5vw;
+    height: 94vh;
+}
+
+div#detalhes menu {
+    margin: 10px;
+    padding: 10px;
+}
+
+div#detalhes ol {
+    list-style-type: none;
+    font-weight: bold;
+}
+
+div#imagem img {
+    width: 50px;
+    height: 50px;
+}
+
+.content div#imagem {
+    height: 45vh;
+    width: 100%;
+}
+
+.content div#detalhes {
+    height: 48vh;
+    width: 100%;
+    border-radius: 30px;
+    background: #fff;
+}
