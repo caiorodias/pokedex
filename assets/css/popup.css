@@ -1,12 +1,14 @@
 section#area {
     background: blue;
     padding: 0px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-left-radius: 32px;
-    border-bottom-right-radius: 32px;
+    border-radius: 5px 5px 32px 32px;
     width: 93.5vw;
-    height: 94vh;
+    height: 85vh;
+}
+
+section#area img#voltar {
+    width: 50px;
+    height: 50px;
 }
 
 div#detalhes menu {
@@ -19,14 +21,24 @@ div#detalhes ol {
     font-weight: bold;
 }
 
-div#imagem img {
+div#imagem img#voltar {
     width: 50px;
     height: 50px;
+    display: flex;
+    align-self: flex-start;
+}
+
+div#imagem  img#pokemon {
+    width: 40%;
+    height: 60%;
 }
 
 .content div#imagem {
-    height: 45vh;
+    height: 40vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .content div#detalhes {
